@@ -1,18 +1,18 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Features from './components/Features';
-import CTABanner from './components/CTABanner';
+import ProductTour from './components/ProductTour';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-inter text-slate-900 antialiased">
+    <div className="font-inter text-white bg-black antialiased">
       <Navbar />
       <main>
         <Hero />
-        <Features />
-        <CTABanner />
+        <ProductTour />
       </main>
+      <Footer />
     </div>
   );
 }
